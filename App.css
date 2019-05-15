@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-image: url("vortex.png");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+li {
+  list-style: none;
+}
+
+/*.buttons{*/
+/*  display: flex;*/
+/*}*/
+
+.Cam video {
+  max-width: 100;
+  border-radius: 20%;
+}
+
+/*.buttons button{*/
+/*  background: linear-gradient(to bottom, #5b1304 0%,  #dc2801 100%);*/
+/*  border-radius: 5px;*/
+/*  border: 1px solid black;*/
+/*  padding: 0.75em 1em;*/
+/*  text-align: center;*/
+/*  font-size: 18px;*/
+/*  color: white;*/
+/*}*/
+/*.buttons input{*/
+/*  background: linear-gradient(to bottom, #5b1304 0%,  #dc2801 100%);*/
+/*  border-radius: 5px;*/
+/*  border: 1px solid black;*/
+/*  padding: 0.75em 1em;*/
+/*  text-align: center;*/
+/*  font-size: 18px;*/
+/*  color: white;*/
+/*}*/
+
+/*.users {*/
+/*  max-width: 50%;*/
+/*  margin: auto;*/
+/*  align-items: center;*/
+/*}*/
+
+input{
+  background-color: gray;
+}
